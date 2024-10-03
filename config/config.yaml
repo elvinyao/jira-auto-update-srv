@@ -1,0 +1,16 @@
+# Default configuration
+jira:
+  url: https://your-jira-instance.com
+  username: your_username
+  api_token: your_api_token
+
+confluence:
+  url: https://your-confluence-instance.com
+  space_key: SPACE
+
+mattermost:
+  webhook_url: https://your-mattermost-instance.com/hooks/xxx
+
+logging:
+  level: INFO
+  file: logs/app.log
